@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Proyecto_Arrglos.Vectores;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,9 +15,9 @@ namespace Proyecto_Arrglos
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Ejercicio2 e2 = new Ejercicio2();
+            e2.OrdenarCadena();
         }
     }
+
 }
