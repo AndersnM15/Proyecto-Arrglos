@@ -15,10 +15,11 @@ namespace Proyecto_Arrglos
         [STAThread]
         static void Main()
         {
+            Ejercicio2 e2 = new Ejercicio2();
+            e2.OrdenarCadena();
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-
             Ejercicio1 e1= new Ejercicio1();
             int[] vector = e1.vectorAleatorio(10);
 
@@ -28,4 +29,5 @@ namespace Proyecto_Arrglos
             }
         }
     }
+
 }
